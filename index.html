@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildcatsfilms:best advertising agency</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!--home section starts now-->
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>Looking For a Bussiness Grow,<br>you Are On The Right Place</h1>
+                <span class="square"></span>
+                <br>
+                <p>  having issue with your Bussiness growth?we can help you.Start advertising with us,its time to Rise higher than the sun! negotiatable projects available</p>
+                    <button class="common-btn">call now</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span><br>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--side menu / navigation starts now-->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">WHY US?</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+
+
+<!--javascript section, initiates the button-->
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0px"
+            }else{
+                sideNav.style.right = "-250px"
+            }
+        }
+    </script>
+    <!-- end of home section-->
+    
+</body>
+</html>
