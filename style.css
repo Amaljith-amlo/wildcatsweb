@@ -132,3 +132,39 @@ nav ul li a{
     font-style: italic;
     color: gray;
 }
+/*why us section*/
+#why{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.why-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.why-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.why-col img{
+    width: 100px;
+}
+.why-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.why-btn{
+    margin: 78px auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.why-btn .line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 19px;
+}
