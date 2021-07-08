@@ -17,7 +17,7 @@
 }
 .logo{
     margin-top: 30px;
-    width: 100px;
+    width: 119px;
 }
 .header-text{
     max-width: 350px;
@@ -33,11 +33,11 @@ h1{
     width: 16px;
     border-radius: 50%;
     display:inline-block;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
 }
 .common-btn{
     padding:18px 40px;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
     border: none;
     color: white;
     cursor: pointer;
@@ -52,19 +52,19 @@ h1{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
     display: inline-block;
 }
 .line-2{
     width: 80px;
     height: 2px;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
     display: inline-block;
 }
 .line-3{
     width: 60px;
     height: 2px;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
     display: inline-block;
 }
 .line{
@@ -76,7 +76,7 @@ h1{
     position:fixed;
     right: -250px;
     top:0;
-    background: rgb(0,210,181);
+    background: rgb(136,118,254);
     z-index: 2;
     transition: .5s;
 }
@@ -225,7 +225,27 @@ hr{
 }
 .amlo a{
     text-decoration: none;
-    color: rgb(0,210,181);
+    color: rgb(136,118,254);
     font-size: smaller;
 
+}
+/*social icons*/
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+/* responsive*/
+@media only screen and (max-width:770px) {
+    
 }
