@@ -31,17 +31,20 @@ h1{
 .square{
     height: 16px;
     width: 16px;
-    border-radius: 50%;
+    border-radius: 20%;
     display:inline-block;
     background: rgb(136,118,254);
 }
 .common-btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 4px;
     padding:18px 40px;
-    background: rgb(136,118,254);
-    border: none;
-    color: white;
+    background:transparent;
+    border:2px solid rgb(136,118,254);
+    color:rgb(136,118,254);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius:20px;
     font-size: 16px;
 }
 .header-text button{
@@ -51,7 +54,7 @@ h1{
 .line-1{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     background: rgb(136,118,254);
     display: inline-block;
 }
@@ -68,6 +71,7 @@ h1{
     display: inline-block;
 }
 .line{
+    margin-top: 8px;
     line-height: 8px;
 }
 #sideNav{
@@ -218,7 +222,7 @@ nav ul li a{
 hr{
     width: 100%;
     border: 0;
-    border-top: 1px solid rgb(0,210,181);
+    border-top: 1px solid rgb(136,118,254);
 }
 .copyright{
     margin-top: 30px;
@@ -244,8 +248,36 @@ hr{
     margin: 0 auto 20px;
     cursor: pointer;
 }
+/*hover animations*/
+.common-btn:hover{
+    background:rgb(136,118,254);
+    color:white;
+}
 
 /* responsive*/
 @media only screen and (max-width:770px) {
-    
+  #header{
+      background-image: none;
+  }
+  .container{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.logo{
+    margin-top: 27px;
+    width: 66px;
+}
+.header-text{
+    margin-top: 100px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+#menuBtn{
+    width: 40px;
+    right: 50px;
+}
+.common-btn{
+    padding:10px 16px;
 }
